@@ -8,6 +8,8 @@ import {
 } from "../CartReducer";
 import { decrementQty, incrementQty } from "../ProductReducer";
 
+//ITENS
+
 const DressItem = ({ item }) => {
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart.cart);
