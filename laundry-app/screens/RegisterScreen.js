@@ -53,7 +53,7 @@ const RegisterScreen = () => {
 
         setDoc(doc(db, "users", `${myUserUid}`), {
           email: user,
-          phone: phone,
+
         });
       }
     );
@@ -168,5 +168,5 @@ const RegisterScreen = () => {
 };
 
 export default RegisterScreen;
-// estilizacao tela de registro
+// estilizacao tela de
 const styles = StyleSheet.create({});
