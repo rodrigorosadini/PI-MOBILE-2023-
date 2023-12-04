@@ -141,6 +141,8 @@ const PickUpScreen = () => {
           flatListContainerStyle={styles.flatListContainerStyle}
         />
 
+        {/* BOTÃO DE ESCOLHER HORARIO */}
+
         <Text style={{ fontSize: 16, fontWeight: "500", marginHorizontal: 10 }}>
           Escolha um horário
         </Text>
