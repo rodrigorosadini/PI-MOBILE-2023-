@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// FUNÇÕES DE INCREMENTAR E DECREMENTAR NO CARRINHO
+
 export const CartSlice = createSlice({
   name: "cart",
   initialState: {
