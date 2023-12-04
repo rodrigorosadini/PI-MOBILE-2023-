@@ -209,7 +209,7 @@ const HomeScreen = () => {
 
         <Services />
 
-        {/*Renderizar todos os produtos*/}
+        {/*Renderiza todos os produtos*/}
 
         {product.map((item, index) => (
           <DressItem item={item} key={index} />
