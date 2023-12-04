@@ -118,6 +118,9 @@ const PickUpScreen = () => {
             margin: 10,
           }}
         />
+
+        {/* BOTÃO DE ESCOLHER DATA */}
+
         <Text style={{ fontSize: 16, fontWeight: "500", marginHorizontal: 10 }}>
           Escolha uma data
         </Text>
