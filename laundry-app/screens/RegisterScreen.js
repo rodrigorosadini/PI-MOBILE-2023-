@@ -168,5 +168,5 @@ const RegisterScreen = () => {
 };
 
 export default RegisterScreen;
-
+// estilizacao tela de registro
 const styles = StyleSheet.create({});
