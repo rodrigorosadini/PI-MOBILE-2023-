@@ -4,6 +4,8 @@ import { auth } from "../firebase";
 import { signOut } from "firebase/auth";
 import { useNavigation } from "@react-navigation/native";
 
+//TELA DE DESLOGAR
+
 const ProfileScreen = () => {
   const user = auth.currentUser;
   const navigation = useNavigation();
