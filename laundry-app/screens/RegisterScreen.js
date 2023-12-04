@@ -39,6 +39,8 @@ const RegisterScreen = () => {
       );
     }
 
+/*MENSAGEM DE SENHA FRACA */
+
     if (password.length < 7) {
       Alert.alert("Erro", "A senha deve ter pelo menos 7 caracteres.");
     } 
