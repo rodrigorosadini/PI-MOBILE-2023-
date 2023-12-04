@@ -2,6 +2,8 @@ import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import React from "react";
 import LottieView from "lottie-react-native";
 
+//TELA PEDIDO FEITO
+
 const OrderScreen = () => {
   return (
     <SafeAreaView>
