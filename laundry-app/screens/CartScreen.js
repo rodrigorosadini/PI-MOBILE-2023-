@@ -92,7 +92,7 @@ const CartScreen = () => {
                     {item.name}
                   </Text>
 
-                  {/* - + button */}
+                  {/* - + BOTOES */}
 
                   <Pressable
                     style={{
