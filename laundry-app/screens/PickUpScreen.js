@@ -21,6 +21,9 @@ const PickUpScreen = () => {
     .reduce((curr, prev) => curr + prev, 0);
   const [selectedTime, setSeletedTime] = useState([]);
   const [delivery, setDelivery] = useState([]);
+
+  // eslizacao da taxa de entrega
+
   const deliveryTime = [
     {
       id: "0",
