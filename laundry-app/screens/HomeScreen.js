@@ -23,7 +23,7 @@ import { useNavigation } from "@react-navigation/native";
 import { collection, getDoc, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
-// TELA HOME
+// TELA DE HOME
 
 const HomeScreen = () => {
   const cart = useSelector((state) => state.cart.cart);
