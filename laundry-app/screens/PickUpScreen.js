@@ -238,6 +238,8 @@ const PickUpScreen = () => {
             </Text>
           </View>
 
+          {/* BOTÃO FINALIZAR PEDIDO */}
+
           <Pressable onPress={proceedToCart}>
             <Text style={{ fontSize: 17, fontWeight: "600", color: "white" }}>
               Ir para o carrinho
