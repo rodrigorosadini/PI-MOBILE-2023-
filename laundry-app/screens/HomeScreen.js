@@ -245,6 +245,8 @@ const HomeScreen = () => {
             </Text>
           </View>
 
+          {/* BOTÃO DE IR PARA O CARRINHO */}
+
           <Pressable onPress={() => navigation.navigate("PickUp")}>
             <Text style={{ fontSize: 17, fontWeight: "600", color: "white" }}>
               Prosseguir
