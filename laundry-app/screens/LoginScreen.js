@@ -37,11 +37,23 @@ const LoginScreen = () => {
     return unsubscribe;
   }, []);
 
-  const login = () => {
-    signInWithEmailAndPassword(auth, email, password);
-    const user = userCredential.user;
-    console.log("user credential", userCredential);
-    console.log("user details", user);
+  const login = async () => {
+    try {
+      setLoading(true);
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      const user = userCredential.user;
+      console.log("user credential", userCredential);
+      console.log("user details", user);
+      // Restante do seu código...
+    } catch (error) {
+      console.error("Erro ao fazer login:", error.message);
+    } finally {
+      setLoading(false);
+    }
   };
   return (
     <SafeAreaView
