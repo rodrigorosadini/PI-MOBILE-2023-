@@ -55,6 +55,8 @@ const LoginScreen = () => {
       setLoading(false);
     }
   };
+
+  //estilizacao tela de login
   return (
     <SafeAreaView
       style={{
