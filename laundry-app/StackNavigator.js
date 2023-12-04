@@ -10,6 +10,8 @@ import RegisterScreen from "./screens/RegisterScreen";
 import ProfileScreen from "./screens/ProfileScreen";
 import OrderScreen from "./screens/OrderScreen";
 
+//NAVEGAÇÃO STACK
+
 const StackNavigator = () => {
   const Stack = createNativeStackNavigator();
   return (
