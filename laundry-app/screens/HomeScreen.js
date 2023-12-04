@@ -170,7 +170,7 @@ const HomeScreen = () => {
   return (
     <>
       <ScrollView style={{ backgroundColor: "#F0F0F0", flex: 1, marginTop: 5 }}>
-        {/*LOCATION AND PROFILE */}
+        {/*LOCALIZAÇÃO E PERFIL */}
         <View
           style={{
             flexDirection: "row",
@@ -199,23 +199,6 @@ const HomeScreen = () => {
               }}
             />
           </Pressable>
-        </View>
-
-        {/*SEARCH BAR */}
-        <View
-          style={{
-            padding: 10,
-            margin: 10,
-            flexDirection: "row",
-            alignItems: "center",
-            justifyContent: "space-between",
-            borderWidth: 0.8,
-            borderColor: "#C0C0C0",
-            borderRadius: 7,
-          }}
-        >
-          <TextInput placeholder="Procure por itens" />
-          <Feather name="search" size={24} color="black" />
         </View>
 
         {/* Carrossel de Imagem */}

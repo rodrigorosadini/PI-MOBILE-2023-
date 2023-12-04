@@ -24,50 +24,50 @@ const PickUpScreen = () => {
   const deliveryTime = [
     {
       id: "0",
-      name: "2-3 Days",
+      name: "2-3 Dias",
     },
     {
       id: "1",
-      name: "3-4 Days",
+      name: "3-4 Dias",
     },
     {
       id: "2",
-      name: "4-5 Days",
+      name: "4-5 Dias",
     },
     {
       id: "3",
-      name: "5-6 Days",
+      name: "5-6 Dias",
     },
     {
       id: "4",
-      name: "Tommorrow",
+      name: "Amanhã",
     },
   ];
 
   const times = [
     {
       id: "0",
-      time: "11:00 PM",
+      time: "11:00",
     },
     {
       id: "1",
-      time: "12:00 PM",
+      time: "12:00",
     },
     {
       id: "2",
-      time: "1:00 PM",
+      time: "13:00",
     },
     {
       id: "2",
-      time: "2:00 PM",
+      time: "14:00",
     },
     {
       id: "4",
-      time: "3:00 PM",
+      time: "15:00",
     },
     {
       id: "5",
-      time: "4:00 PM",
+      time: "16:00",
     },
   ];
 
@@ -125,7 +125,7 @@ const PickUpScreen = () => {
           mode="gregorian"
           startDate={new Date("2023-12-01")}
           endDate={new Date("2023-12-31")}
-          initialSelectedDate={new Date("2023-12-01")}
+          initialSelectedDate={new Date("")}
           onSelectedDateChange={(date) => setSelectedDate(date)}
           selectedItemWidth={170}
           unselectedItemWidth={38}
@@ -154,7 +154,7 @@ const PickUpScreen = () => {
                       borderRadius: 7,
                       padding: 15,
                       borderColor: "red",
-                      borderWidth: 1,
+                      borderWidth: 2,
                     }
                   : {
                       margin: 10,
@@ -184,7 +184,7 @@ const PickUpScreen = () => {
                       borderRadius: 7,
                       padding: 15,
                       borderColor: "red",
-                      borderWidth: 1,
+                      borderWidth: 2,
                     }
                   : {
                       margin: 10,

@@ -23,8 +23,17 @@ const ProfileScreen = () => {
       <Pressable style={{ marginVertical: 10 }}>
         <Text>Bem Vindo {user.email}</Text>
       </Pressable>
-      <Pressable onPress={signOutUser}>
-        <Text>Desconectar</Text>
+      <Pressable
+        style={{
+          margin: 10,
+          borderRadius: 7,
+          padding: 15,
+          backgroundColor: "red",
+          borderWidth: 2,
+        }}
+        onPress={signOutUser}
+      >
+        <Text style={{ color: "white" }}>Desconectar</Text>
       </Pressable>
     </SafeAreaView>
   );

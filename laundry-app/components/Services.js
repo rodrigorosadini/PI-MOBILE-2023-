@@ -13,28 +13,28 @@ const Services = () => {
     {
       id: "0",
       image: "https://cdn-icons-png.flaticon.com/128/3003/3003984.png",
-      name: "Limpeza",
+      name: "Limpamos",
     },
     {
       id: "11",
       image: "https://cdn-icons-png.flaticon.com/128/2975/2975175.png",
-      name: "Lavanderia",
+      name: "Lavamos",
     },
     {
       id: "12",
       image: "https://cdn-icons-png.flaticon.com/128/9753/9753675.png",
-      name: "Limpar e Passar",
+      name: "Passamos",
     },
     {
       id: "13",
       image: "https://cdn-icons-png.flaticon.com/128/995/995016.png",
-      name: "Limpar",
+      name: "Clariamos",
     },
   ];
   return (
     <View style={{ padding: 10 }}>
       <Text style={{ fontSize: 16, fontWeight: "500", marginBottom: 7 }}>
-        Serviços Disponíveis
+        Aqui nós:
       </Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {services.map((service, index) => (
