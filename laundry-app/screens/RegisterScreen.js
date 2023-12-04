@@ -21,10 +21,9 @@ import { doc, setDoc } from "firebase/firestore";
 const RegisterScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [phone, setPhone] = useState("");
   const navigation = useNavigation();
   const register = () => {
-    if (email === "" || password === "" || phone === "") {
+    if (email === "" || password === "") {
       Alert.alert(
         "Campos Vazios",
         "Preencha os campos em branco",
@@ -39,6 +38,11 @@ const RegisterScreen = () => {
         { cancelable: false }
       );
     }
+
+    if (password.length < 7) {
+      Alert.alert("Erro", "A senha deve ter pelo menos 7 caracteres.");
+    } 
+
     createUserWithEmailAndPassword(auth, email, password).then(
       (userCredential) => {
         console.log("user credential", userCredential);
@@ -120,23 +124,7 @@ const RegisterScreen = () => {
             />
           </View>
 
-          <View style={{ flexDirection: "row", alignItems: "center" }}>
-            <Feather name="phone" size={24} color="black" />
-            <TextInput
-              placeholder="Telefone"
-              value={phone}
-              onChangeText={(text) => setPhone(text)}
-              placeholderTextColor="black"
-              style={{
-                fontSize: password ? 18 : 18,
-                borderBottomWidth: 1,
-                borderBottomColor: "gray",
-                width: 300,
-                marginLeft: 13,
-                marginVertical: 10,
-              }}
-            />
-          </View>
+          
 
           <Pressable
             onPress={register}
