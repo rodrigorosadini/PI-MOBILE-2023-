@@ -148,6 +148,7 @@ const RegisterScreen = () => {
               marginRight: "auto",
             }}
           >
+            {/* Botão de Registrar */}
             <Text style={{ fontSize: 18, textAlign: "center", color: "white" }}>
               Registrar
             </Text>
