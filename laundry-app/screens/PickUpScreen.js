@@ -98,6 +98,7 @@ const PickUpScreen = () => {
   return (
     <>
       <SafeAreaView>
+        {/* INPUT DE COLOCAR ENDEREÇO */}
         <Text
           style={{
             fontSize: 16,
