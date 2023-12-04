@@ -135,6 +135,7 @@ const LoginScreen = () => {
                 marginRight: "auto",
               }}
             >
+              {/* BOTÃO DE LOGIN */}
               <Text
                 style={{ fontSize: 18, textAlign: "center", color: "white" }}
               >
