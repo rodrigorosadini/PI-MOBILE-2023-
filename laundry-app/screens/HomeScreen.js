@@ -170,7 +170,7 @@ const HomeScreen = () => {
   return (
     <>
       <ScrollView style={{ backgroundColor: "#F0F0F0", flex: 1, marginTop: 5 }}>
-        {/*LOCALIZAÇÃO E PERFIL */}
+        {/*LOCALIZAÇÃO E PERFIL DO USUÁRIO */}
         <View
           style={{
             flexDirection: "row",
