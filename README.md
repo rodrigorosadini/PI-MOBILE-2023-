@@ -8,5 +8,7 @@ INSTRUÇÕES
 
 2 - Rodar "npm install" para instalar as dependências.
 
-3 - Iniciar o aplicativo com o comando "npx expo start --tunnel"
+3 - Rodar "npx expo start"
+
+3 - Em caso de erro ao iniciar o aplicativo, inicie com o comando "npx expo start --tunnel"
 
